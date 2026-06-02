@@ -1,0 +1,6 @@
+interface:
+  display_name: "Hermes Frontend Standards Merged"
+  short_description: "面向本仓库的合并版大厂级前端规范 skill"
+  default_prompt: "Use $hermes-frontend-standards-merged to write or refactor code in this Vue 3 + Vite + TypeScript repo with a polished single-file enterprise standard covering architecture, naming, Chinese comments, parameter documentation, Vue components, TypeScript, API, store, router, styles, and review quality."
+policy:
+  allow_implicit_invocation: true
