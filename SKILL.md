@@ -247,13 +247,13 @@ export type AssistantHistoryAction = (typeof AssistantHistoryAction)[keyof typeo
 ```ts
 import { EnumValue } from '@/model/frame/enum-value'
 
-export const enumApplyMaterialType = {
+export const EnumApplyMaterialType = {
   need: new EnumValue(1, '必要材料'),
   noNeed: new EnumValue(2, '非必要材料'),
 }
 
 export default {
-  enumApplyMaterialType,
+  EnumApplyMaterialType,
 }
 ```
 
@@ -261,10 +261,10 @@ export default {
 
 ```ts
 export enum AssistantHistoryAction {
-  Copy = 'copy',
-  Delete = 'delete',
-  Export = 'export',
-  Rename = 'rename',
+  copy = 'copy',
+  delete = 'delete',
+  export = 'export',
+  rename = 'rename',
 }
 ```
 
